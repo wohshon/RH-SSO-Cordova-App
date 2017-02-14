@@ -4,7 +4,8 @@ document.getElementById('say_hello').onclick = function () {
       {
         path: 'product',
         data: {
-          product: document.getElementById('hello_to').value
+          uname: document.getElementById('hello_to').value,
+          upassword: document.getElementById('hello_password').value
         }
       },
       function (res) {
